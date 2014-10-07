@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/ertrzyiks/pawnhint",
   "dependencies": {
-    "node-state": "^1.4.1",
-    "pawn-tokenizer": "git://github.com/ertrzyiks/pawn-tokenizer"
+    "pawn-tokenizer": "git://github.com/ertrzyiks/pawn-tokenizer",
+    "stately.js": "^1.2.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

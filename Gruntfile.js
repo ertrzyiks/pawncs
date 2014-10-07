@@ -39,7 +39,7 @@ module.exports = function(grunt) {
         mochaTest: {
             test: {
                 options: {
-                    reporter: 'checkstyle',
+                    reporter: 'spec',
                     captureFile: 'logs/mocha.xml' // Optionally capture the reporter output to a file
                 },
                 src: ['test/**/*.js']
@@ -53,5 +53,6 @@ module.exports = function(grunt) {
 
     grunt.registerTask('default', ['test']);
 
-    grunt.registerTask('test', ['jscs', 'jshint:test', 'mochaTest']);
+    grunt.registerTask('test', ['jscs', 'jshint:test', 'mocha']);
+    grunt.registerTask('mocha', ['mochaTest']);
 };
