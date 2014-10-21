@@ -1,27 +1,27 @@
 {
-  "name": "pawnhint",
+  "name": "pawncs",
   "version": "0.1.0",
-  "description": "pawnhint",
+  "description": "pawncs",
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ertrzyiks/pawnhint.git"
+    "url": "https://github.com/ertrzyiks/pawncs.git"
   },
   "keywords": [
     "pawn",
-    "hint",
-    "lint"
+    "code style"
   ],
   "author": "Mateusz Derks <mateusz.derks@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ertrzyiks/pawnhint/issues"
+    "url": "https://github.com/ertrzyiks/pawncs/issues"
   },
-  "homepage": "https://github.com/ertrzyiks/pawnhint",
+  "homepage": "https://github.com/ertrzyiks/pawncs",
   "dependencies": {
+    "parser": "^0.1.4",
     "pawn-tokenizer": "git://github.com/ertrzyiks/pawn-tokenizer",
     "stately.js": "^1.2.0"
   },
