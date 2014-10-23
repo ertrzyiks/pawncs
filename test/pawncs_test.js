@@ -1,21 +1,30 @@
-var assert = require("assert"),
+var expect = require("chai").expect,
     path = require("path"),
     fs = require("fs"),
-    PawnParser = require("../lib/pawncs.js");
+    pawncs = require("../lib");
 
-describe('Pawncs', function(){
-    describe('#parseStream', function(){
-        it('should emit data event', function(done){
-            var stream = fs.createReadStream(path.join(__dirname, "fixtures/source.sma"));
+describe('Pawncs', function (){
+    describe('#PawnParse', function (){
+        it('should be a class', function () {
+            expect(pawncs.PawnParser).to.be.a('function');
+        });
+    });
 
-            var p = new PawnParser();
+    describe('#parseFile', function (){
+        it('should be a function', function () {
+            expect(pawncs.parseFile).to.be.a('function');
+        });
+    });
 
-            stream.on('data', function(data) {
-                p.write(data);
-            });
-            stream.on('end', function() {
-                p.end();
-            });
-        })
-    })
+    describe('#parseStream', function (){
+        it('should be a function', function () {
+            expect(pawncs.parseFile).to.be.a('function');
+        });
+    });
+
+    describe('#parseString', function (){
+        it('should be a function', function () {
+            expect(pawncs.parseString).to.be.a('function');
+        });
+    });
 });

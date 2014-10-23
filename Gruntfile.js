@@ -5,9 +5,7 @@ module.exports = function(grunt) {
 
         jscs: {
             options: {
-                config: ".jscsrc",
-                reporter: "checkstyle",
-                reporterOutput: "logs/checkstyle_jscs.xml"
+                config: ".jscsrc"
             },
             test: {
                 files: {
@@ -29,10 +27,6 @@ module.exports = function(grunt) {
                         'lib/**/*.js',
                         'index.js'
                     ]
-                },
-                options: {
-                    reporter: "checkstyle",
-                    reporterOutput: "logs/checkstyle_js.xml"
                 }
             }
         },
