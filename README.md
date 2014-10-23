@@ -1,2 +1,2 @@
-pawnhint [![Build Status](https://travis-ci.org/ertrzyiks/pawnhint.svg?branch=master)](https://travis-ci.org/ertrzyiks/pawnhint)
+pawncs [![Build Status](https://travis-ci.org/ertrzyiks/pawncs.svg?branch=master)](https://travis-ci.org/ertrzyiks/pawncs)
 ========
