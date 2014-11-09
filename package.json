@@ -22,7 +22,7 @@
   "homepage": "https://github.com/ertrzyiks/pawncs",
   "dependencies": {
     "parser": "git://github.com/ertrzyiks/node-parser",
-    "pawn-tokenizer": "git://github.com/ertrzyiks/pawn-tokenizer",
+    "pawn-tokenizer": "^0.0.2",
     "requirejs": "^2.1.15",
     "stately.js": "^1.2.0",
     "treehugger": "0.0.2"
